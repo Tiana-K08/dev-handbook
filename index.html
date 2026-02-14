@@ -8,36 +8,67 @@
       name="description"
       content="Особистий технічний довідник з веб-розробки: нотатки, приклади та фрагменти коду з HTML, CSS, JavaScript, Node.js, React та інших технологій."
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
-    <header>
-      <h1>Dev Handbook</h1>
+
+  <body class="page page--home">
+    <header class="header header--home">
+      <h1 class="header__title header__title--home">Dev Handbook</h1>
     </header>
 
-    <main>
-      <nav>
-        <ul>
-          <li><a href="topics/html/intro.html">HTML</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-          <li><a href="#">GIT</a></li>
-          <li><a href="#">Node.js</a></li>
-          <li><a href="#">React</a></li>
-          <li><a href="#">Web</a></li>
-          <li><a href="#">Project Organization</a></li>
-          <li><a href="#">Dev Tools</a></li>
-          <li><a href="#">English / Spanish</a></li>
+    <main class="main main--home">
+      <nav class="dev-topics">
+        <ul class="dev-topics__list">
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="topics/html/intro.html">HTML</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">CSS</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">JavaScript</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">GIT</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">Node.js</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">React</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">Web</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">Project Organization</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">Dev Tools</a>
+          </li>
+          <li class="dev-topics__item">
+            <a class="dev-topics__link" href="#">English / Spanish</a>
+          </li>
         </ul>
       </nav>
     </main>
 
-    <footer>
-      <p>
+    <footer class="footer">
+      <p class="footer__text">
         © 2026 Tetiana Kononenko. Dev Handbook - personal development notes.
       </p>
-      <p>
+      <p class="footer__text">
         Licensed under the
         <a
+          class="footer__link"
           href="https://opensource.org/license/MIT"
           target="_blank"
           rel="noopener noreferrer"
